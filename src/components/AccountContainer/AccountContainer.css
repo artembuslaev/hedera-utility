@@ -1,0 +1,27 @@
+.account-container {
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr 1fr;
+    background-color: #464646;
+    justify-items: center;
+}
+
+.account-container__logo {
+    width: 80%;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.account-container__form {
+    width: 80%;
+    align-self: center;
+}
+
+.account-container__info {
+    color: white;
+}
+
+.account-container__action {
+    align-self: flex-end;
+    width: 80%;
+    margin-bottom: 30px;
+}

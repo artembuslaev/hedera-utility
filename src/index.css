@@ -1,0 +1,23 @@
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: darkgray;
+  border-radius: 20px;
+  background-clip: padding-box;
+  border: 5px solid transparent;
+  padding-right: 4px;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+}

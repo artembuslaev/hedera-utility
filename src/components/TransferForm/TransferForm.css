@@ -1,0 +1,10 @@
+.transfer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+}
+
+.transfer-form__input {
+    width: 100%;
+}
