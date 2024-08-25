@@ -8,6 +8,7 @@ export function AccountContainer(props: any) {
     const [balance, setBalance] = useState(null);
 
     useEffect(() => {
+        console.log('update-balance')
         window.api.onUpdateBalance(setBalance);
     }, []);
 
